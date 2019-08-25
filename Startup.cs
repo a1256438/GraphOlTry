@@ -30,13 +30,13 @@ namespace graph
             }
             app.UseMiddleware<PersonGraplQLMiddleware>();
 
-            app.UseRouting(routes =>
-            {
-                routes.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
-            });
+            //app.UseRouting(routes =>
+            //{
+            //    routes.MapGet("/", async context =>
+            //    {
+            //        await context.Response.WriteAsync("Hello World!");
+            //    });
+            //});
         }
     }
 }

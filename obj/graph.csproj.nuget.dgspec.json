@@ -1,37 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "d:\\GraphOLTest\\graph\\graph.csproj": {}
+    "D:\\GraphOLTest\\graph\\graph.csproj": {}
   },
   "projects": {
-    "d:\\GraphOLTest\\graph\\graph.csproj": {
+    "D:\\GraphOLTest\\graph\\graph.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\GraphOLTest\\graph\\graph.csproj",
+        "projectUniqueName": "D:\\GraphOLTest\\graph\\graph.csproj",
         "projectName": "graph",
-        "projectPath": "d:\\GraphOLTest\\graph\\graph.csproj",
-        "packagesPath": "C:\\Users\\a1256\\.nuget\\packages\\",
-        "outputPath": "d:\\GraphOLTest\\graph\\obj\\",
+        "projectPath": "D:\\GraphOLTest\\graph\\graph.csproj",
+        "packagesPath": "C:\\Users\\rex\\.nuget\\packages\\",
+        "outputPath": "D:\\GraphOLTest\\graph\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\a1256\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\GraphOLTest\\graph\\NuGet.Config",
+          "C:\\Users\\rex\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "c:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore-tooling/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-aspnetcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-entityframeworkcore/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/aspnet-extensions/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
-          "https://dotnetfeed.blob.core.windows.net/dotnet-windowsdesktop/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
@@ -51,25 +45,30 @@
               "target": "Package",
               "version": "[2.4.0, )"
             },
-            "Microsoft.NETCore.Platforms": {
-              "suppressParent": "All",
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[3.0.0-preview4.19164.7, )",
-              "autoReferenced": true
-            },
-            "runtime.win-x64.Microsoft.NETCore.DotNetAppHost": {
-              "include": "None",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.0.0-preview4-27522-06, )",
-              "autoReferenced": true
+              "version": "[1.9.2, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100-preview8-013656\\RuntimeIdentifierGraph.json"
         }
       }
     }

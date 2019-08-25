@@ -8,8 +8,8 @@ namespace graph.Interfaces
        
         IEnumerable<Person> GetALL();
 
- 
-        Person GetByID(int id);
+
+        IEnumerable<Person> GetByID(int id);
 
         
     }

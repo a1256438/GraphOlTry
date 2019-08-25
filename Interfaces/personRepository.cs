@@ -13,14 +13,20 @@ namespace graph.Interfaces
             var michael =new Person{
                 Id=1,
                 Name="w",
-                Email="aaa"
+                Email= "michael@"
             };
-            var Persons=new List<Person>{michael};
+            var Lily = new Person
+            {
+                Id = 2,
+                Name = "Lily",
+                Email = "Lily@"
+            };
+            var Persons=new List<Person>{michael, Lily };
             return Persons;
         }
         //呼叫的查詢條件
-        public Person GetByID(int id){
-            return GetALL().SingleOrDefault(x =>x.Id == id);
+        public IEnumerable<Person> GetByID(int id){
+            return GetALL().Where(x=>x.Id==id);
         }
     }
 }
