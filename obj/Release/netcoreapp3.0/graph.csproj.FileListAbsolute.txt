@@ -13,7 +13,6 @@ D:\GraphOLTest\graph\bin\Release\netcoreapp3.0\Newtonsoft.Json.dll
 D:\GraphOLTest\graph\bin\Release\netcoreapp3.0\System.Reactive.Core.dll
 D:\GraphOLTest\graph\bin\Release\netcoreapp3.0\System.Reactive.Interfaces.dll
 D:\GraphOLTest\graph\bin\Release\netcoreapp3.0\System.Reactive.Linq.dll
-D:\GraphOLTest\graph\obj\Release\netcoreapp3.0\graph.csprojAssemblyReference.cache
 D:\GraphOLTest\graph\obj\Release\netcoreapp3.0\staticwebassets\graph.StaticWebAssets.Manifest.cache
 D:\GraphOLTest\graph\obj\Release\netcoreapp3.0\staticwebassets\graph.StaticWebAssets.xml
 D:\GraphOLTest\graph\obj\Release\netcoreapp3.0\graph.csproj.CoreCompileInputs.cache
@@ -25,3 +24,4 @@ D:\GraphOLTest\graph\obj\Release\netcoreapp3.0\graph.RazorTargetAssemblyInfo.cac
 D:\GraphOLTest\graph\obj\Release\netcoreapp3.0\graph.csproj.CopyComplete
 D:\GraphOLTest\graph\obj\Release\netcoreapp3.0\graph.dll
 D:\GraphOLTest\graph\obj\Release\netcoreapp3.0\graph.pdb
+D:\GraphOLTest\graph\obj\Release\netcoreapp3.0\graph.csprojAssemblyReference.cache
